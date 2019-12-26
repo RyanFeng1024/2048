@@ -1,0 +1,79 @@
+* { margin: 0; padding: 0; text-decoration: none;}
+body { background-color: #faf8ef;}
+html　{ font-size: 100px;}
+.header { width: 565px; margin: 0px auto;}
+.title {width: 100%; overflow: hidden;}
+.title h1 { float: left; font-size: 70px; color: #776e65; margin-right: 20px;}
+.title div { float: right; width: 158px; height: 70px; border-radius: 5px;
+	background-color: #bbada0; margin: 10px 0 0 10px; text-align: center;}
+.title div p { font-size: 13px; color: #eee4da; padding-top: 15px;}
+.title div span { color: #fff; font-size: 25px; padding-top: 15px;}
+.desc { overflow: hidden;}
+.desc div{ float: left;}
+.desc h3 { font-size: 20px; color: #776e65; padding-top: 10px;}
+.desc p { font-size: 16px; color: #776e65; padding-top: 5px;}
+.desc p span { font-weight: bold; font-size: 18px; color: #776e65; }
+.desc a { display: block; width: 140px; height: 50px; font-size: 16px; line-height: 50px;
+	text-align: center; color: #fff; font-weight: bold; background-color: #8f7a66;
+	float: right; margin-top: 10px; border-radius: 5px;}
+.desc a:hover { background-color: #9f8b77;}
+
+
+#grid-container {
+	width: 533px;
+	height: 533px;
+	padding: 15px;
+	margin: 15px auto;
+	background-color: #bbada0;
+	border-radius: 10px;
+	position: relative;
+}
+
+.grid-cell {
+	width: 125px;
+	height: 125px;
+	border-radius: 6px;
+	background-color: #cdc1b4;
+	position: absolute;
+}
+
+.number-cell {
+	border-radius: 6px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 125px;
+	text-align: center;
+	position: absolute;
+}
+
+.gameover {
+	width: 563px;
+	height: 563px;
+	background-color: rgba(211,200,189,0.6);
+	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 666;
+	display: none;
+}
+.gameover h1 {
+	font-size: 60px;
+	text-align: center;
+	color: #776e65;
+	padding-top: 250px;
+}
+.gameover a {
+	display: block; 
+	width: 140px; 
+	height: 50px; 
+	font-size: 16px; 
+	line-height: 50px;
+	text-align: center; 
+	color: #fff; 
+	font-weight: bold; 
+	background-color: #8f7a66;
+	border-radius: 5px;
+	margin: 20px auto;
+}
